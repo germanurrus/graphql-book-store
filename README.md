@@ -1,4 +1,4 @@
-# Store-Manager  GraphQL-api
+# Store-Manager  GraphQL-API
 
 ## Development setup
 
