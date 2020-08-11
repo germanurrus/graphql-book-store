@@ -2,15 +2,11 @@
 
 ## Development setup
 
-1. Run these commands:
+1. Install dependencies with `npm install`
 
-```
-npm install
-```
+2. Make sure you have correctly set up your [environment file](#environment-file).
 
-2. Start node back end server  with `npm run start`.
-3. Make sure you have correctly set up your [environment file](#environment-file).
-4. `npm run start:dev`
+3. Start node back end server  with `npm run start:dev`.
 
 ## Teardown
 
