@@ -3,7 +3,7 @@ const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const schema = require('./schema/schema');
+const { schema } = require('./schema/schema');
 
 mongoose.connect(process.env.DB_ATLAS_CONNECTION_STRING);
 mongoose.connection.once('open', () => {
